@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\TSA1\phpunit.dist.xml" tests="15" assertions="51" errors="0" failures="0" skipped="0" time="0.184051">
+    <testsuite name="App" tests="15" assertions="51" errors="0" failures="0" skipped="0" time="0.184051">
+      <testsuite name="ExampleDatabaseTest" file="C:\xampp\htdocs\TSA1\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.044858">
+        <testcase name="testModelFindAll" file="C:\xampp\htdocs\TSA1\tests\database\ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="1" time="0.036275"/>
+        <testcase name="testSoftDeleteLeavesRow" file="C:\xampp\htdocs\TSA1\tests\database\ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="2" time="0.008583"/>
+      </testsuite>
+      <testsuite name="TaskManagementTest" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" tests="10" assertions="44" errors="0" failures="0" skipped="0" time="0.134534">
+        <testcase name="testSeedMeetsRequiredCountsAndDates" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="20" class="TaskManagementTest" classname="TaskManagementTest" assertions="4" time="0.008362"/>
+        <testcase name="testWelcomeOnlyShowsToday" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="29" class="TaskManagementTest" classname="TaskManagementTest" assertions="7" time="0.028000"/>
+        <testcase name="testTaskListShowsEveryTaskInDateOrder" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="41" class="TaskManagementTest" classname="TaskManagementTest" assertions="11" time="0.011654"/>
+        <testcase name="testProfileReadsSingleDemoUser" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="57" class="TaskManagementTest" classname="TaskManagementTest" assertions="4" time="0.008801"/>
+        <testcase name="testAboutIdentifiesDeveloper" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="67" class="TaskManagementTest" classname="TaskManagementTest" assertions="3" time="0.013545"/>
+        <testcase name="testSeederCanBeRepeatedWithoutDuplicateRecords" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="75" class="TaskManagementTest" classname="TaskManagementTest" assertions="2" time="0.011571"/>
+        <testcase name="testSeederRefreshesSampleDates" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="83" class="TaskManagementTest" classname="TaskManagementTest" assertions="1" time="0.009417"/>
+        <testcase name="testTodayCanBeEmptyWhileFullListStillHasTasks" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="91" class="TaskManagementTest" classname="TaskManagementTest" assertions="3" time="0.011269"/>
+        <testcase name="testEmptyDatabaseHasUsefulEmptyStates" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="100" class="TaskManagementTest" classname="TaskManagementTest" assertions="4" time="0.017161"/>
+        <testcase name="testTaskOutputEscapesHtml" file="C:\xampp\htdocs\TSA1\tests\feature\TaskManagementTest.php" line="112" class="TaskManagementTest" classname="TaskManagementTest" assertions="5" time="0.014754"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="C:\xampp\htdocs\TSA1\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000740">
+        <testcase name="testSessionSimple" file="C:\xampp\htdocs\TSA1\tests\session\ExampleSessionTest.php" line="10" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.000740"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="C:\xampp\htdocs\TSA1\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.003919">
+        <testcase name="testIsDefinedAppPath" file="C:\xampp\htdocs\TSA1\tests\unit\HealthTest.php" line="12" class="HealthTest" classname="HealthTest" assertions="1" time="0.000615"/>
+        <testcase name="testBaseUrlHasBeenSet" file="C:\xampp\htdocs\TSA1\tests\unit\HealthTest.php" line="17" class="HealthTest" classname="HealthTest" assertions="2" time="0.003303"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

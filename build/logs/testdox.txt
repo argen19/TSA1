@@ -1,0 +1,23 @@
+Example Database
+ [x] Model find all
+ [x] Soft delete leaves row
+
+Example Session
+ [x] Session simple
+
+Health
+ [x] Is defined app path
+ [x] Base url has been set
+
+Task Management
+ [x] Seed meets required counts and dates
+ [x] Welcome only shows today
+ [x] Task list shows every task in date order
+ [x] Profile reads single demo user
+ [x] About identifies developer
+ [x] Seeder can be repeated without duplicate records
+ [x] Seeder refreshes sample dates
+ [x] Today can be empty while full list still has tasks
+ [x] Empty database has useful empty states
+ [x] Task output escapes html
+
